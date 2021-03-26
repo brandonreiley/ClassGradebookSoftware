@@ -4,7 +4,6 @@ This is the README file for the class gradebook software system for CS496 Group 
 The software system's purpose is to provide a way for instructors to manage class assignments.
 
 -----------------------------------------------------------------------------
-
 User Manual:
 
 Directions:
@@ -25,3 +24,9 @@ User will have the option to view all assignments in the gradebook sorted alphab
 
 Remove Assignment:
 User can remove any assignment from the gradebook by choosing the assignment ID. 
+
+System Requirements:
+Will run on any current mac or pc system
+
+Running the application:
+There will be an included jar file that will be able to run when opened. 
