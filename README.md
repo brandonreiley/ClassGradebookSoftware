@@ -3,8 +3,14 @@ This is the README file for the class gradebook software system for CS496 Group 
 
 The software system's purpose is to provide a way for instructors to manage class assignments.
 
+-----------------------------------------------------------------------------
+
+User Manual:
+
 Directions:
 User will be prompted with a selection menu to either add assignment, edit, view, or remove. 
+
+Note: User input with incorrect variable type (String when prompted int) may crash the program. 
 
 Add Assignment:
 User will be prompted to input information on the assignment.
@@ -12,10 +18,10 @@ Assignment data will be added to an assignment object and into an arraylist (gra
 
 Edit Assignment:
 User will be able to edit assignment name, type, description, ID, or percentage.
-Any changes will be updated and saved in the gradebook
+Any changes will be updated and saved in the gradebook.
 
-View Assignment:
-User will have the option to view any assignment in the gradebook and all of its information.
+List Assignment:
+User will have the option to view all assignments in the gradebook sorted alphabetically by name.
 
 Remove Assignment:
-User can remove any assignment from the gradebook. 
+User can remove any assignment from the gradebook by choosing the assignment ID. 
