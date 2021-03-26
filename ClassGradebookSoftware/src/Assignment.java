@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class Assignment {
 	private String name;
 	private String type;
@@ -17,34 +14,43 @@ public class Assignment {
 		this.percentage = percentage;
 	}
 	
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		ArrayList<Assignment> list = new ArrayList<Assignment>();
-		System.out.println("What would you like to do?");
-		System.out.println("Press 1 to Add Assignment, 2 to Edit an Assignment, 3 to View an Assignment's info, 4 to Remove an Assignment.");
-		
-		int userChoice = scan.nextInt();
-		
-		if(userChoice == 1) {
-			System.out.println("Add Assignment:");
-			System.out.println("Please enter the name of the assignment");				
-			String name = scan.nextLine();
-		}
-		else if(userChoice == 2) {
-			System.out.println("Edit Assignment:");
-			//list all assignments by name				
-			System.out.println("Please enter the name of the assignment you want to edit");
-			String assignName = scan.nextLine();
-		}
-		else if(userChoice == 3) {
-			System.out.println("View Assignment info:");
-			System.out.println("Please enter the name of the assignment you want to view");
-			String assignName = scan.nextLine();
-		}
-		else if(userChoice == 4) {
-			System.out.println("Remove Assignment:");
-			System.out.println("Please enter the name of the assignment you want to remove");
-			String assignName = scan.nextLine();
-		}
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getType() {
+		return type;
+	}
+	
+	public void setType(String type) {
+		this.type = type;
+	}
+	
+	public String getDescription() {
+		return description;
+	}
+	
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	public int getID() {
+		return ID;
+	}
+	
+	public void setID(int ID) {
+		this.ID = ID;
+	}
+	
+	public double getPercentage() {
+		return percentage;
+	}
+	
+	public void setPercentage(double percentage) {
+		this.percentage = percentage;
 	}
 }
