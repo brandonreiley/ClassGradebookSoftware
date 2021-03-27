@@ -1,4 +1,4 @@
-public class Assignment {
+public class Assignment implements Comparable <Assignment>{
 	private String name;
 	private String type;
 	private String description;
@@ -52,5 +52,10 @@ public class Assignment {
 	
 	public void setPercentage(double percentage) {
 		this.percentage = percentage;
+	}
+	
+	@Override
+	public int compareTo(Assignment second) {
+		return name.compareTo(second.getName());
 	}
 }
