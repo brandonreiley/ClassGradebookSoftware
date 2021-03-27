@@ -52,4 +52,4 @@ System Requirements:
 Will run on any current mac or pc system
 
 Running the application: 
-There will be an included jar file that will be able to run when opened. 
+There will be an included jar file that will be able to run when opened. A batch file will be included with the jar file. Click the file titled "run.bat" in order to run the jar file. Please note that the two files need to be in the same directory for the software to run. 
