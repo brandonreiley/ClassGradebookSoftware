@@ -14,17 +14,17 @@ In this gradebook we will provide services to the user such as adding assignment
 
 The assignName attribute holds the name of an assignment and is of data type String. The assignID attribute holds the attached Identification number of an assignment and is of datatype int. The assignPercentage attribute is used to hold the percentage an assignment has for the total grade and is of datatype double. The assignDescription attribute is used to hold a description of an assignment; it uses a String datatype
 
-the code gives you 5 options 
+The code gives you 5 options 
 option 1: it allows the user to add the assignmnet
 option 2: iT allows the user to edit the assignmnet which is already stored in the gradebook
 option 3: it allows the user to view the assignment after submitting it 
 oprion 4: it allows the user to remove the assignment 
 option 5: it allows the user to exit the gradebook
 
-The user will get an option to enter the name of the assignmnet. Then it allows the user to enter a description of the assignment.
-after entering the description of the assignment the user will wull get an option to assign an ID. WHen all the steps are done the gradebook allows to assign a percentage to the assignment
+The user will get an option to enter the name of the assignment. Then it allows the user to enter a description of the assignment.
+After entering the description of the assignment the user will wull get an option to assign an ID. WHen all the steps are done the gradebook allows to assign a percentage to the assignment.
 
-We will be saving the array list in future. 
+We will be saving the array list the in future. The software is not able to save the Gradebook once the software is closed. This functionality is planned for future releases. 
 
 -----------------------------------------------------------------------------
 User Manual:
@@ -52,4 +52,5 @@ System Requirements:
 Will run on any current mac or pc system
 
 Running the application: 
-There will be an included jar file that will be able to run when opened. A batch file will be included with the jar file. Click the file titled "run.bat" in order to run the jar file. Please note that the two files need to be in the same directory for the software to run. 
+There will be an included jar file that will be able to run when opened. A batch file will be included with the jar file. Click the file titled "run.bat" in order to run the jar file. Please note that the two files need to be in the same directory or folder for the software to run. It is also recommended that the jar and batch files be the only files within a folder or directory to ensure no issues running the software occur. 
+ 
