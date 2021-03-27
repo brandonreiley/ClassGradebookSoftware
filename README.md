@@ -3,10 +3,16 @@ This is the README file for the class gradebook software system for CS496 Group 
 
 The software system's purpose is to provide a way for instructors to manage class assignments.
 
+ This class is designed to hold and allow access to the assignment objects.
+ 
+Assignment: This class is used to create assignments that are essentially stored in a gradebook object.
+
 What is Gradebook Software?
 Gradebook software automates grade tracking, performance assessment and monitoring of student attendance and provides easy access to synchronized data for teachers, principals and school administrators.
 
 In this gradebook we will provide services to the user such as adding assignment, edit assignment, list assignment and remove assignment.
+
+The assignName attribute holds the name of an assignment and is of data type String. The assignID attribute holds the attached Identification number of an assignment and is of datatype int. The assignPercentage attribute is used to hold the percentage an assignment has for the total grade and is of datatype double. The assignDescription attribute is used to hold a description of an assignment; it uses a String datatype
 
 -----------------------------------------------------------------------------
 User Manual:
