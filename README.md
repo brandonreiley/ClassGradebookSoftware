@@ -52,5 +52,5 @@ System Requirements:
 Will run on any current mac or pc system
 
 Running the application: 
-There will be an included jar file that will be able to run when opened. A batch file will be included with the jar file. Click the file titled "run.bat" in order to run the jar file. Please note that the two files need to be in the same directory or folder for the software to run. It is also recommended that the jar and batch files be the only files within a folder or directory to ensure no issues running the software occur. 
+There will be an included jar file that will be able to run when opened. A batch file will be included with the jar file. Click the file titled "run.bat" in order to run the jar file, which is titled "CS496Group1Gradebook.jar". Please note that the two files need to be in the same directory or folder for the software to run. It is also recommended that the jar and batch files be the only files within a folder or directory to ensure no issues running the software occur. 
  
