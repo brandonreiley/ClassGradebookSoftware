@@ -3,6 +3,11 @@ This is the README file for the class gradebook software system for CS496 Group 
 
 The software system's purpose is to provide a way for instructors to manage class assignments.
 
+What is Gradebook Software?
+Gradebook software automates grade tracking, performance assessment and monitoring of student attendance and provides easy access to synchronized data for teachers, principals and school administrators.
+
+In this gradebook we will provide services to the user such as adding assignment, edit assignment, list assignment and remove assignment.
+
 -----------------------------------------------------------------------------
 User Manual:
 
@@ -28,5 +33,5 @@ User can remove any assignment from the gradebook by choosing the assignment ID.
 System Requirements:
 Will run on any current mac or pc system
 
-Running the application:
+Running the application: 
 There will be an included jar file that will be able to run when opened. 
