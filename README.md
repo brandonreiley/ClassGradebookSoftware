@@ -10,7 +10,7 @@ Assignment: This class is used to create assignments that are essentially stored
 What is Gradebook Software?
 Gradebook software automates grade tracking, performance assessment and monitoring of student attendance and provides easy access to synchronized data for teachers, principals and school administrators.
 
-In this gradebook we will provide services to the user such as adding assignment, edit assignment, list assignment and remove assignment.
+In this gradebook we will provide services to the user such as adding assignments, editing assignments, listing assignments and removing assignments.
 
 The assignName attribute holds the name of an assignment and is of data type String. The assignID attribute holds the attached Identification number of an assignment and is of datatype int. The assignPercentage attribute is used to hold the percentage an assignment has for the total grade and is of datatype double. The assignDescription attribute is used to hold a description of an assignment; it uses a String datatype
 
@@ -22,7 +22,7 @@ oprion 4: it allows the user to remove the assignment
 option 5: it allows the user to exit the gradebook
 
 The user will get an option to enter the name of the assignment. Then it allows the user to enter a description of the assignment.
-After entering the description of the assignment the user will wull get an option to assign an ID. WHen all the steps are done the gradebook allows to assign a percentage to the assignment.
+After entering the description of the assignment the user will wull get an option to assign an ID. When all the steps are done the gradebook allows to assign a percentage to the assignment.
 
 We will be saving the array list the in future. The software is not able to save the Gradebook once the software is closed. This functionality is planned for future releases. 
 
